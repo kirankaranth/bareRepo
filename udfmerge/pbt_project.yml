@@ -1,0 +1,54 @@
+name: test_udf_merge_ext
+description: ''
+version: 0.0.1
+author: kiranadmin@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: test_udf_merge_ext
+  parentArtefactID: kiranadminprophecy.io_team
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-07-17 09:02:07'
+pipelines:
+  pipelines/p1:
+    name: p1
+    description: ''
+    author: kiranadmin@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-07-17 09:02:07'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+functions:
+  author: null
+  createdAt: '2023-07-17 09:02:07'
+  gems: {}
+  udfs:
+    udfs/test_udf:
+      name: test_udf
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: kiranadmin@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies: []
+projectDependencies: {}
+pipelineConfigurations: {}
