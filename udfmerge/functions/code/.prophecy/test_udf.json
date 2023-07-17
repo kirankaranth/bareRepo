@@ -1,1 +1,4 @@
-{"initCode":"initial=5","code":"@udf(returnType=IntegerType())\ndef factorial(input):\n    input = int(input) if input is not None else 2\n    return int(input)*int(input) if input is not None else initial"}
+{
+  "initCode" : "initial=15",
+  "code" : "@udf(returnType=IntegerType())\ndef factorial(input):\n    input = int(input) if input is not None else 2\n    return int(input)*int(input) if input is not None else initial"
+}
