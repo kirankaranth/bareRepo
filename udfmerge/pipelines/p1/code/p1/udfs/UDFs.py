@@ -24,7 +24,7 @@ def registerUDFs(spark: SparkSession):
         pass
 
 def test_udfGenerator():
-    initial = 15
+    initial = 20
 
     @udf(returnType = IntegerType())
     def func(input):
