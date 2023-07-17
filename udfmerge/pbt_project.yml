@@ -31,7 +31,15 @@ functions:
   author: null
   createdAt: '2023-07-17 08:23:05'
   gems: {}
-  udfs: {}
+  udfs:
+    udfs/test_udf:
+      name: test_udf
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: kiranadmin@prophecy.io
+      createdAt: '2022-12-15 18:04:50'
   udafs: {}
   expressions: {}
 subgraphs: {}
@@ -41,6 +49,6 @@ sqlSeeds: {}
 sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline: null
-dependencies: '[]'
+dependencies: []
 projectDependencies: {}
 pipelineConfigurations: {}
