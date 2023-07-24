@@ -27,10 +27,13 @@ pipelines:
 datasets: {}
 templates: {}
 jobs: {}
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
 functions:
   author: null
   createdAt: '2023-07-17 09:02:07'
-  gems: {}
   udfs:
     udfs/test_udf:
       name: test_udf
