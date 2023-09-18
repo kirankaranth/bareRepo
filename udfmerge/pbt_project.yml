@@ -11,19 +11,6 @@ buildSystemDetails:
   author: null
   createdAt: '2023-07-17 09:02:07'
 pipelines:
-  pipelines/p1:
-    name: p1
-    description: ''
-    author: kiranadmin@prophecy.io
-    mode: batch
-    artefactID: ''
-    language: python
-    createdAt: '2023-07-17 09:02:07'
-    datasets:
-      inputs: []
-      outputs: []
-    subgraphs: []
-    dependencies: {}
   pipelines/p1235235:
     name: p1235235
     description: ''
@@ -46,7 +33,7 @@ gemContainer:
   gems: {}
 functions:
   author: null
-  createdAt: '2023-07-17 09:02:07'
+  createdAt: '2023-09-18 09:51:47'
   udfs:
     udfs/test_udf:
       name: test_udf
