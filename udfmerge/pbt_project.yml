@@ -24,13 +24,29 @@ pipelines:
       outputs: []
     subgraphs: []
     dependencies: {}
+  pipelines/p1235235:
+    name: p1235235
+    description: ''
+    author: kiranadmin@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-08-21 12:40:53'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
 datasets: {}
 templates: {}
 jobs: {}
+gemContainer:
+  languageVersion: '3.10'
+  gemLibsVersion: 1.3.2.0
+  gems: {}
 functions:
   author: null
   createdAt: '2023-07-17 09:02:07'
-  gems: {}
   udfs:
     udfs/test_udf:
       name: test_udf
@@ -50,5 +66,61 @@ sqlSources: {}
 sqlUnreferencedSources: {}
 sqlPipeline: null
 dependencies: []
-projectDependencies: {}
+projectDependencies:
+  '872':
+    projectUID: 872
+    projectName: SugraphShare
+    repositoryPath: gitUri=http://gitserver:3000/yiKoVz9l_team_147/vuTHWa3s_project_872.git&subPath=
+    version: SugraphShare/1
+    isDefault: true
+    author: null
+    createdAt: '2023-08-23 06:04:30'
+  '966':
+    projectUID: 966
+    projectName: PythonGemsPublic
+    repositoryPath: gitUri=http://gitserver:3000/hd0dc4Mx_team_414/n9cEl6RD_project_966.git&subPath=
+    version: 0.0.1
+    isDefault: true
+    author: null
+    createdAt: '2023-08-23 06:04:30'
+  '970':
+    projectUID: 970
+    projectName: PythonGemsPublic
+    repositoryPath: gitUri=http://gitserver:3000/Lv9j2aML_team_416/Lv9j2aML_project_970.git&subPath=
+    version: 0.0.1
+    isDefault: true
+    author: null
+    createdAt: '2023-08-26 06:08:43'
+  '980':
+    projectUID: 980
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/E2hLY3lP_project_980.git&subPath=
+    version: 0.0.1
+    isDefault: true
+    author: null
+    createdAt: '2023-09-05 05:00:27'
+  '979':
+    projectUID: 979
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/E2hLY3lP_project_979.git&subPath=
+    version: 0.0.2
+    isDefault: true
+    author: null
+    createdAt: '2023-09-05 05:00:27'
+  '987':
+    projectUID: 987
+    projectName: ProphecySparkBasicsPython
+    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/A1yfWi48_project_987.git&subPath=
+    version: 0.0.2
+    isDefault: true
+    author: null
+    createdAt: '2023-09-14 12:22:45'
+  '988':
+    projectUID: 988
+    projectName: ProphecyWarehousePython
+    repositoryPath: gitUri=http://gitserver:3000/E2hLY3lP_team_419/A1yfWi48_project_988.git&subPath=
+    version: 0.0.1
+    isDefault: true
+    author: null
+    createdAt: '2023-09-14 12:22:45'
 pipelineConfigurations: {}
