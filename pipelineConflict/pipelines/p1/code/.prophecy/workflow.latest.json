@@ -61,14 +61,14 @@
   },
   "connections" : [ ],
   "processes" : {
-    "rWlhkDjlTf40wKAfbdEPx$$2u29YQSXHsvbw5TLtGTaQ" : {
-      "id" : "rWlhkDjlTf40wKAfbdEPx$$2u29YQSXHsvbw5TLtGTaQ",
+    "vkeJQ0wJ-IERPcBVPR9T2$$Zz8n-6gUPc3CJRvvXteLs" : {
+      "id" : "vkeJQ0wJ-IERPcBVPR9T2$$Zz8n-6gUPc3CJRvvXteLs",
       "component" : "Source",
       "metadata" : {
-        "label" : "Sourc",
-        "slug" : "Sourc",
-        "x" : -900,
-        "y" : 240,
+        "label" : "right_source",
+        "slug" : "right_source",
+        "x" : 40,
+        "y" : -160,
         "phase" : 0,
         "cache" : false,
         "detailedStats" : false,
@@ -77,7 +77,7 @@
       "ports" : {
         "inputs" : [ ],
         "outputs" : [ {
-          "id" : "Vkv-binuJdeojSVqFX5BH$$3kvdiQsytv7JjPzgnGKmo",
+          "id" : "mOCc1kB-CRqdDb-UWIZOc$$b81_9FSWnXOniXTJpovus",
           "slug" : "out"
         } ],
         "selectedInputFields" : [ ],
@@ -95,7 +95,7 @@
     "autoUpdateOnRun" : false
   },
   "diagnostics" : [ {
-    "property" : "$.workflow.processes.rWlhkDjlTf40wKAfbdEPx$$2u29YQSXHsvbw5TLtGTaQ.properties.datasetId",
+    "property" : "$.workflow.processes.vkeJQ0wJ-IERPcBVPR9T2$$Zz8n-6gUPc3CJRvvXteLs.properties.datasetId",
     "range" : {
       "start" : {
         "line" : 0,
