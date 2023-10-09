@@ -4,7 +4,7 @@
       "gemBuilderVersion" : "v1"
     },
     "id" : "1",
-    "uri" : "pipelines/workflow",
+    "uri" : "pipelines/p1",
     "language" : "python",
     "fabricId" : "5926",
     "frontEndLanguage" : "sql",
@@ -60,12 +60,55 @@
     "configurationVersion" : "v1"
   },
   "connections" : [ ],
-  "processes" : { },
+  "processes" : {
+    "vkeJQ0wJ-IERPcBVPR9T2$$Zz8n-6gUPc3CJRvvXteLs" : {
+      "id" : "vkeJQ0wJ-IERPcBVPR9T2$$Zz8n-6gUPc3CJRvvXteLs",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "right_source",
+        "slug" : "right_source",
+        "x" : 40,
+        "y" : -160,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "mOCc1kB-CRqdDb-UWIZOc$$b81_9FSWnXOniXTJpovus",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : { }
+    }
+  },
   "ports" : {
     "inputs" : [ ],
     "outputs" : [ ],
     "selectedInputFields" : [ ],
     "isCustomOutputSchema" : false,
     "autoUpdateOnRun" : false
-  }
+  },
+  "diagnostics" : [ {
+    "property" : "$.workflow.processes.vkeJQ0wJ-IERPcBVPR9T2$$Zz8n-6gUPc3CJRvvXteLs.properties.datasetId",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "dataset id missing",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  } ]
 }
