@@ -4,7 +4,7 @@
       "gemBuilderVersion" : "v1"
     },
     "id" : "1",
-    "uri" : "pipelines/workflow",
+    "uri" : "pipelines/p1",
     "language" : "python",
     "fabricId" : "5926",
     "frontEndLanguage" : "sql",
@@ -60,12 +60,55 @@
     "configurationVersion" : "v1"
   },
   "connections" : [ ],
-  "processes" : { },
+  "processes" : {
+    "rWlhkDjlTf40wKAfbdEPx$$2u29YQSXHsvbw5TLtGTaQ" : {
+      "id" : "rWlhkDjlTf40wKAfbdEPx$$2u29YQSXHsvbw5TLtGTaQ",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "Sourc",
+        "slug" : "Sourc",
+        "x" : -900,
+        "y" : 240,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "Vkv-binuJdeojSVqFX5BH$$3kvdiQsytv7JjPzgnGKmo",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false,
+        "autoUpdateOnRun" : false
+      },
+      "properties" : { }
+    }
+  },
   "ports" : {
     "inputs" : [ ],
     "outputs" : [ ],
     "selectedInputFields" : [ ],
     "isCustomOutputSchema" : false,
     "autoUpdateOnRun" : false
-  }
+  },
+  "diagnostics" : [ {
+    "property" : "$.workflow.processes.rWlhkDjlTf40wKAfbdEPx$$2u29YQSXHsvbw5TLtGTaQ.properties.datasetId",
+    "range" : {
+      "start" : {
+        "line" : 0,
+        "character" : 0
+      },
+      "end" : {
+        "line" : 0,
+        "character" : 0
+      }
+    },
+    "severity" : 1,
+    "message" : "dataset id missing",
+    "tags" : [ ],
+    "relatedInformation" : [ ]
+  } ]
 }
