@@ -62,4 +62,20 @@ projectDependencies:
     isDefault: true
     author: null
     createdAt: '2023-10-09 06:27:34'
+  '35315':
+    projectUID: 35315
+    projectName: testDep_rename
+    repositoryPath: gitUri=http://gitserver:3000/Dr0dAv3w_team_7167/hH9vdmcX_project_35315.git&subPath=
+    version: testDep/2
+    isDefault: false
+    author: null
+    createdAt: '2023-10-11 09:16:31'
+  '35537':
+    projectUID: 35537
+    projectName: testShare
+    repositoryPath: gitUri=http://gitserver:3000/Dr0dAv3w_team_7167/IP0DaQYS_project_35537.git&subPath=
+    version: testShare/1
+    isDefault: false
+    author: null
+    createdAt: '2023-10-11 09:16:33'
 pipelineConfigurations: {}
